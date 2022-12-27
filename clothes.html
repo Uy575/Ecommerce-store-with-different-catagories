@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./scss/style.css" />
+    <link rel="stylesheet" href="/buttons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- <script src="./script.js" defer></script> -->
+    <script src="./clothes.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="ecommerceStore">
+       
+      <button id="backToData">Continue Shopping</button>
+      <span class="logo"> Ecommerce Store </span>
+      <i class="fa-solid fa-cart-shopping"></i> 
+      <button id="addingcart"> Show cart </button>
+      
+      <span id=cartItems>0</span>
+      <div class="leftnav">
+        <aside>
+          <ul>
+            <h1>Catogaries</h1>
+            <li><a href="./index.html">Mobile</a></li>
+            <li ><a href="./electronics.html">Electronic</a> </li>
+            <li><a href="./clothes.html"><i class="fa-solid fa-clipboard"></i>clothes</a></li>
+          </ul>
+          <form class="filterform" id="filterform" >
+           
+         <h1>Filter by price</h1>
+         <input type="text" id="filterText" placeholder="min value">
+         <input type="text" id="maxvalue" placeholder="max value">
+         <button id="filtersubmit">filter</button>
+          </form>
+        </aside>
+      </div>
+      <div class="mainContainer">
+      <div class="searchbar">
+      <form >
+        <input id="searchbar" type="text" placeholder="search here" autocomplete="off"  />
+        <button id="upperForm" >search</button>
+      </form>
+       <div class="searchlist" id="searchlist">
+       </div>
+      </div>
+      <h1 id="mainHeading"><i class="fa-solid fa-clipboard"></i>Clothes</h1>
+      <div class="loader" id="loader"></div>
+     <div class="mainContent" id="first">
+ 
+    </div>
+     <div class="downbuttons" id="downbuttons">
+       <button id="next">Next</button>
+       <button id="purchase" onclick="thankyou()">Purchase</button>
+       <button id="previous">Back To First Page</button>
+      </div>
+    </div>
+    </div>
+    <div><img class="ty" id="ty" src="./imgs/thankyou.jpg" alt=""></div>
+  </body>
+</html>

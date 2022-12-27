@@ -1,0 +1,74 @@
+button{
+    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff 51%, #ff6e7f 100%);
+    margin: 10px;
+    /* padding: 12px 40px; */
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 0.5rem;
+    border-color: #bfe9ff;
+    display: block;
+    width: 10rem;
+    height: 1.5rem;
+    font-family: "Baloo Bhai 2", cursive;
+  }
+ button:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }/*# sourceMappingURL=login.css.map */
+
+#backToData{
+    display: inline;
+}
+  /* ... inputs ...  */
+  input{
+    /* border:none; */
+    /* outline:none; */
+    display:inline-block;
+    height:25px;
+    vertical-align:middle;
+    position:relative;
+    bottom:14px;
+    right:9px;
+    border-radius:22px;
+    width:220px;
+    box-sizing:border-box;
+    padding:0 18px;
+    border-color: #d48f97;
+    border-top-color: #bfe9ff ;
+  }
+
+  input::placeholder{
+    font-family: 'Baloo Bhai 2', cursive;
+  }
+
+
+  /* ... custom scrollbar ...  */
+
+/* Custom Scrollbar */
+.custom-scroll {
+    overflow-y: auto;
+    max-height: 52vh;
+  }
+  
+  .custom-scroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-right: 5px;
+  }
+  
+  .custom-scroll::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .custom-scroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
